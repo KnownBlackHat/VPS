@@ -10,7 +10,7 @@
 + If on windows connect using any RDP Client
 + If on linux open terminal and install xfreerdp and then copy & paste this:
 ```bash
-xfreerdp /u:runner /p:toor /v:<NGROK HostName>:PORT +clipboard /smart-sizing +offscreen-cache 
+xfreerdp /u:runner /p:toor /v:<NGROK HostName>:PORT +clipboard /smart-sizing +offscreen-cache /f
 ```
 
 ## Credentials
