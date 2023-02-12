@@ -1,4 +1,4 @@
-# Linux RDP Server
+# Ubuntu RDP Server
 
 ## How To Use
 + Fork This Repo
@@ -10,14 +10,10 @@
 + If on windows connect using any RDP Client
 + If on linux open terminal and install xfreerdp and then copy & paste this:
 ```bash
-xfreerdp /u:runner /p:toor /v:<NGROK HostName>:PORT +clipboard /smart-sizing +offscreen-cache /f
+xfreerdp /u:runner /p:toor  +clipboard /smart-sizing +offscreen-cache /f /v:<NGROK HostName>:PORT
 ```
 
 ## Credentials
 Username: `runner`
 Password: `toor`
 
-## Try these command inside rdp server's terminal for better performance
-Disable Compositing:
-```bash
-xfconf-query --channel=xfwm4 --property=/general/use_compositing --type=bool --set=false --create```
