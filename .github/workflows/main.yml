@@ -19,7 +19,7 @@ jobs:
         run: sudo ufw allow 3389/tcp
 
       - name: Configure Users
-        run: echo "runner:toor" | sudo chpasswd
+        run: echo "runner:toor" | sudo chpasswd ; echo "runneradmin:toor" | sudo chpasswd
         
       - name: Starting Ngrok
         run: ngrok tcp 3389
