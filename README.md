@@ -2,7 +2,8 @@
 
 ## How To Use
 + Fork This Repo
-+ Create a [ngrok account](https://dashboard.ngrok.com/) and get a authtoken for free
++ Create a [ngrok account](https://dashboard.ngrok.com/) 
++ Get a [authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) for free
 + Add a [Secret Variable](../../settings/secrets/actions/new) `NGROK_AUTH_TOKEN` and give your token there
 + Run [Github Action Workflow](../../actions/workflows/main.yml)
 + Go to [NGROK](https://dashboard.ngrok.com/tunnels/agents) to get url
