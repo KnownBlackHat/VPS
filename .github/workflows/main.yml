@@ -1,9 +1,9 @@
 name: Linux RDP
 
-on: [push]
+on: [push,workflow_dispatch]
 
 jobs:
-  rev:
+  Build:
     runs-on: ubuntu-latest
     steps:      
       - name: Installing neccesary packages
@@ -20,6 +20,5 @@ jobs:
 
       - name: Configure Users
         run: echo "runner:toor" | sudo chpasswd
-
       - name: Starting Ngrok
         run: ngrok tcp 3389
