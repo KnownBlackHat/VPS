@@ -16,3 +16,7 @@ xfreerdp /u:runner /p:toor /v:<NGROK HostName>:PORT +clipboard /smart-sizing +of
 ## Credentials
 Username: `runner`
 Password: `toor`
+
+## Try these command inside rdp server's terminal for better performance
+Disable Compositing
+```xfconf-query --channel=xfwm4 --property=/general/use_compositing --type=bool --set=false --create```
