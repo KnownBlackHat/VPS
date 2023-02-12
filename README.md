@@ -1,7 +1,7 @@
 # Ubuntu RDP Server
 
 ## How To Use
-+ Fork This Repo
++ [Fork](../../fork) This Repo
 + Create a [ngrok account](https://dashboard.ngrok.com/) 
 + Get a [authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) for free
 + Add a [Secret Variable](../../settings/secrets/actions/new) `NGROK_AUTH_TOKEN` and give your token there
